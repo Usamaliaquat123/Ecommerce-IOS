@@ -40,16 +40,33 @@ struct CardView: View {
                 .foregroundColor(.black)
             Text(item.subTitle)
                 .font(.caption)
-                .foregroundColor(.grey)
+                .foregroundColor(.gray)
             
             
-            
+            HStack  {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/){
+                    Image(systemName: "suit.heart")
+                        .font(.title2)
+                        .foregroundColor(.black)
+                }
+                
+                Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
+                
+                Text(item.rating)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.black)
+                
+                
+            }
             
         
         }
    
         
     
+        
+        
+        
     }
 }
 
