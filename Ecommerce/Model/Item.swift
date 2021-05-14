@@ -18,7 +18,7 @@ struct Item : Identifiable {
     var rating: String
     var image: String
 }
-
+// Products
 var items = [
     Item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
     Item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),

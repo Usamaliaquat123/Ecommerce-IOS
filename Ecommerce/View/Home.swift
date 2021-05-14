@@ -75,10 +75,13 @@ struct Home: View {
                         
                         
                         ForEach(items){ item in
+                                
+                            // Card View
+                            Cardview(item: item, animation:  animation)
                             
                         }
                         
-                    }
+                    }.padding()
                 
                 
                 }

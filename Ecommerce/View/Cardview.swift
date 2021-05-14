@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardView: View {
+struct Cardview: View {
     var item: Item
 
     var animation : Namespace.ID
@@ -61,21 +61,12 @@ struct CardView: View {
             
         
         }
-   
-        
-    
-        
+        .padding(.bottom)
+        .background(Color(item.image))
+        .cornerRadius(15)
         
         
     }
 }
 
 
-
-//#if DEBUG
-//struct CardView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CardView()
-//    }
-//}
-//#endif
