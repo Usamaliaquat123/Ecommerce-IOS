@@ -10,7 +10,7 @@ import SwiftUI
 
 // item model and sample data
 
-struct item : Identifiable {
+struct Item : Identifiable {
     var id = UUID().uuidString
     var title : String
     var subTitle : String
@@ -20,10 +20,10 @@ struct item : Identifiable {
 }
 
 var items = [
-    item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
-    item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
-    item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
-    item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1")
+    Item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
+    Item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
+    Item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1"),
+    Item(title: " Vincent Chase", subTitle: "Black Full Rim", price: "$36", rating: "3.8", image: "p1")
     
 ]
 

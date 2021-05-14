@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     var item: Item
+
     var animation : Namespace.ID
     var body: some View {
 
@@ -22,8 +23,19 @@ struct CardView: View {
                     .foregroundColor(.black)
                     .padding(.vertical,5)
                     .padding(.horizontal, 10)
+                    .background(Color.white.opacity(0.5))
+                    .cornerRadius(10)
             }
+       
+            
+            
+            
+            
+        
         }
+   
+        
+    
     }
 }
 
