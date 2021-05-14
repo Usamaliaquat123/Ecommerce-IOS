@@ -67,7 +67,7 @@ struct Home: View {
                             
                         }
                     }.padding()
-                
+                    .padding(.top, 5)
                 }
             }
             
