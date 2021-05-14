@@ -68,6 +68,19 @@ struct Home: View {
                         }
                     }.padding()
                     .padding(.top, 5)
+                
+                    //Products
+                    
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 20), count: 2), spacing : 25){
+                        
+                        
+                        ForEach(items){ item in
+                            
+                        }
+                        
+                    }
+                
+                
                 }
             }
             
@@ -91,7 +104,7 @@ struct Home_Previews: PreviewProvider {
 }
 #endif
 
-
+//tabs
 var Tabs = ["Glasses", "Watched", "Shoes", "Perfumes"]
 
 

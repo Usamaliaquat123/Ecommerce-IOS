@@ -15,6 +15,8 @@
 		04F2467A264F0F7E002CCD34 /* EcommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F24679264F0F7E002CCD34 /* EcommerceUITests.swift */; };
 		04F2468A264F11C6002CCD34 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F24689264F11C6002CCD34 /* Home.swift */; };
 		04F2468C264F16EB002CCD34 /* Tabbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2468B264F16EB002CCD34 /* Tabbutton.swift */; };
+		04F2468E264F2006002CCD34 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2468D264F2006002CCD34 /* Item.swift */; };
+		04F24690264F37E5002CCD34 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2468F264F37E5002CCD34 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04F2467B264F0F7E002CCD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F24689264F11C6002CCD34 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		04F2468B264F16EB002CCD34 /* Tabbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbutton.swift; sourceTree = "<group>"; };
+		04F2468D264F2006002CCD34 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		04F2468F264F37E5002CCD34 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		04F24687264F11AB002CCD34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04F2468D264F2006002CCD34 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			children = (
 				04F24689264F11C6002CCD34 /* Home.swift */,
 				04F2468B264F16EB002CCD34 /* Tabbutton.swift */,
+				04F2468F264F37E5002CCD34 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F2468E264F2006002CCD34 /* Item.swift in Sources */,
 				04F2465F264F0F7A002CCD34 /* ContentView.swift in Sources */,
 				04F2468C264F16EB002CCD34 /* Tabbutton.swift in Sources */,
 				04F2468A264F11C6002CCD34 /* Home.swift in Sources */,
+				04F24690264F37E5002CCD34 /* CardView.swift in Sources */,
 				04F2465D264F0F7A002CCD34 /* EcommerceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
