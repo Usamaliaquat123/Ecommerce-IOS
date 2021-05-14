@@ -28,6 +28,20 @@ struct CardView: View {
             }
        
             
+            Image(item.image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            
+            
+            
+            Text(item.title)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.black)
+            Text(item.subTitle)
+                .font(.caption)
+                .foregroundColor(.grey)
+            
             
             
             
